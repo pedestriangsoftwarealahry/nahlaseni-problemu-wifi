@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hlášení problémů s Wi-Fi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        h1 {
+            color: #004085;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+            margin: 30px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hlášení problémů s Wi-Fi a připojením k internetu</h1>
+        <hr>
+        <p>Pokud chcete nahlásit lokální problém s Wi-Fi sítí nebo internetem, stiskněte tlačítko zde. Tím nahlásíte problém, který se týká všech zařízení - např. nikomu se nejde připojit k internetu.</p>
+        <a href="https://lokalni-vypadek-internetu-internet-nikomu-nefunguje-globalni.mystrikingly.com" class="button">Nahlásit lokální problém</a>
+        <hr>
+        <p>Pokud máte problém pouze s připojením Vašeho jednoho zařízení (např. všem se jde připojit, ale Vám ne), stiskněte tlačítko zde.</p>
+        <a href="https://soukrome-problemy-s-wifi-neni-globalni.mystrikingly.com" class="button">Nahlásit problém jednoho zařízení</a>
+    </div>
+</body>
+</html>
